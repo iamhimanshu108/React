@@ -6,7 +6,7 @@ import Pokemon from "../Pokemon/Pokemon";
 
 function PokemonList() {
 
-    const [pokemonList, setPokemonList] = useState([]);
+    const [PokemonList, setPokemonList] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
     async function dowmloadPokemons() {
@@ -42,7 +42,7 @@ function PokemonList() {
            <div>Pokemon List </div>
 
            {(isLoading) ? 'Loading...' : 
-                pokemonList.map((p) => <Pokemon name={p.name} image={p.image} key={p.id} />)}
+            PokemonList.map((p) => <Pokemon name={p.name} image={p.image} key={p.id} />)}
         </div>
         
         
