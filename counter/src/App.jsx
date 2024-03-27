@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   function decreaseHandler() {
-    if(count > 0)
+    // if(count > 0) for not negative
     setCount(count - 1);
   }
 
