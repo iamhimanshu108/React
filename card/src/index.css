@@ -1,0 +1,27 @@
+.card {
+  border: 2px solid black;
+  max-width: 23vw;
+}
+
+.conatiner {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+.nav-links{
+  background: #e7b1b1;
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 10px;
+  text-align: center;
+}
+
+li{
+  list-style: none;
+}
+.div h1 {
+  text-align: center;
+  margin: auto;
+}
